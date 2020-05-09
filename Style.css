@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-image: radial-gradient(ellipse at top right, white 10%, red);
+}
+
+.satu, .dua {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.satu {
+  min-height: 70vmin;
+  background-image: radial-gradient(ellipse at bottom, white, blue);
+}
+
+.dua {
+  min-height: 25vmin;
+  margin: 0 auto;
+  background-image: radial-gradient(circle at left, white, blue, white);
+}
